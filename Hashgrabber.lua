@@ -1451,7 +1451,8 @@ local result = (dumpRemotes({
 	GunShopUI = "UnequipGun",
 	GunShopUI1 = "EquipGun",
 	GunShopUI2 = "BuyGun",
-	AttemptBreakout = "Breakout"
+	AttemptBreakout = "Breakout",
+	AttemptVehicleEject = "Eject",
 }))
 
 return result
