@@ -1454,6 +1454,7 @@ local result = (dumpRemotes({
 	AttemptBreakout = "Breakout",
 	AttemptVehicleEject = "Eject",
 	AttemptPickPocket = "PickPocket",
+	AttemptArrest = "Arrest"
 }))
 
 return result
