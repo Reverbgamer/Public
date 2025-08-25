@@ -1441,7 +1441,7 @@ local result = (dumpRemotes({
 }, { -- 
 	play = "JoinTeam",
 	ShootBegin = "C4",
-	ShootBegin1 = "SmokeGrenade"
+	ShootBegin1 = "SmokeGrenade",
 	Gun = "DamageVehicle",
 	Gun1 = "ExplodeBarrel",
 	SidebarUI = "SwitchTeam",
