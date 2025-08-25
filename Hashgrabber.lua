@@ -1432,7 +1432,7 @@ local result = (dumpRemotes({
     ReplicatedStorage.TeamSelect.TeamChooseUI,
     ReplicatedStorage.Game.SidebarUI,
     ReplicatedStorage.Game.Item.C4,
-	ReplicatedStorage.Game.Item.SmokeGrenade
+	ReplicatedStorage.Game.Item.SmokeGrenade,
     ReplicatedStorage.Game.Item.Gun,
     ReplicatedStorage.Game.Item.Donut,
     ReplicatedStorage.Game.Falling,
