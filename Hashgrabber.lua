@@ -1437,6 +1437,7 @@ local result = (dumpRemotes({
     ReplicatedStorage.Game.Item.Donut,
     ReplicatedStorage.Game.Falling,
     ReplicatedStorage.Game.GunShop.GunShopUI,
+	ReplicatedStorage.Game.NukeControl,
     Players.LocalPlayer.PlayerScripts.LocalScript,
 }, { -- 
 	play = "JoinTeam",
@@ -1457,7 +1458,8 @@ local result = (dumpRemotes({
 	AttemptVehicleEject = "Eject",
 	AttemptPickPocket = "PickPocket",
 	AttemptArrest = "Arrest",
-	DoorSequence = "OpenDoor"
+	DoorSequence = "OpenDoor",
+	NukeControl = "NukeEvent",
 }))
 
 return result
