@@ -1415,6 +1415,12 @@ local function dumpRemotes(scripts, renamed)
 		end
 	end
 
+	local c = 1
+    for _ in next, returned do
+        c+=1
+    end
+    print("Found " .. c .. " Hashes")
+
 	for i, v in table.clone(returned) do
 		if renamed[i] then
 			returned[i] = nil
