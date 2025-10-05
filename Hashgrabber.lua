@@ -1444,6 +1444,7 @@ local result = (dumpRemotes({
     ReplicatedStorage.Game.Falling,
     ReplicatedStorage.Game.GunShop.GunShopUI,
 	ReplicatedStorage.Game.NukeControl,
+	ReplicatedStorage.Home.HomeItem.Fabricate["Trapped Bookshelf"],
     Players.LocalPlayer.PlayerScripts.LocalScript,
 }, { -- 
 	play = "JoinTeam",
@@ -1466,6 +1467,7 @@ local result = (dumpRemotes({
 	AttemptArrest = "Arrest",
 	DoorSequence = "OpenDoor",
 	NukeControl = "NukeEvent",
+	["Trapped Bookshelf"] = "Damage"
 }))
 
 return result
