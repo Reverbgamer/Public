@@ -1467,7 +1467,8 @@ local result = (dumpRemotes({
 	AttemptArrest = "Arrest",
 	DoorSequence = "OpenDoor",
 	NukeControl = "NukeEvent",
-	["Trapped Bookshelf"] = "Damage"
+	["Trapped Bookshelf"] = "Damage",
+	LocalScript1 = "SetSetting"
 }))
 
 return result
